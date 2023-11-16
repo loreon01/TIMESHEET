@@ -1,0 +1,114 @@
+#AP1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(209, 213, 222, 1);
+    font-family: 'Cutive', serif;  
+    padding-top: 100px;
+}
+
+
+input[type="submit"] {
+    margin-top: 15px;
+    background-color: rgba(0, 123, 255, 1);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#AP2{
+    background-color: rgba(209, 213, 222, 1);
+    font-family: 'Lato', serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.form-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.form-item label{
+    width: 30%;
+    text-align: left;
+}
+
+.form-item input{
+    width: 70%;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Montserrat', serif;
+
+}
+body{
+    font-family: 'Montserrat', serif;
+    background-color: rgba(209, 213, 222, 1);
+    font-weight:500;
+}
+
+
+.material-symbols-outlined{
+    padding-top:13px;
+    color: white;
+}
+
+ul.navbar {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+}
+
+li.navitem {
+    float: left;
+}
+
+li.navitem a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navitem a:hover {
+    background-color: #555;
+}
+#boton{
+    border-radius: 10px;
+    font-family: 'Montserrat', serif;  
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    background-color: #3498db;
+    font-weight: bold;
+}
+#boton:hover {
+    background-color: #1c6694;
+}
+.navbar{
+    font-family: 'Cutive', serif;  
+    font-weight: lighter;
+}
+.enlace-volver {
+    background-color: #007BFF;
+    text-decoration: none; 
+    font-weight: bold; 
+    padding: 5px 10px; 
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    display: inline-block;
+}
+.enlace-volver:hover {
+    background-color: #007BFF;
+    color: white; 
+}
